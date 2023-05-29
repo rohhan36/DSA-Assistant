@@ -237,7 +237,7 @@ const quotes =
 
 
 function getQuestions() {
-    const startDate = new Date('05/23/2023');
+    const startDate = new Date('05/29/2023');
     const currDate = new Date(`${new Date().toLocaleDateString()}`);
 
     let daysDifference = (currDate.getTime() - startDate.getTime()) / (1000 * 60 * 60 * 24);
